@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cde0c9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Nav Stayle */
+
+.Nav-container {
+  padding: 10px 30px;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2c6975;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+header h2{
+  color: #2c6975;
+}
+h2 {
+  color: white;
+}
+.Icon-Section {
+  position: relative;
+}
+.Nav-Icon {
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+}
+.Amount-counter {
+  color: white;
+  position: absolute;
+  top: -0.15rem;
+  right: -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: #96d7c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* container style*/
+.container-body {
+  width: 50%;
+  margin: auto;
+}
+.container-body h2 {
+  text-align: center;
+}
+
+.cart-Item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.amount {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.cart-Item img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.remove-btn {
+  color: #2c6975;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  background: transparent;
+  border: none;
+  margin-top: 0.375rem;
+  transition: all 0.5s;
+}
+.remove-btn:hover {
+  color: #4cb438;
+}
+.amount-btn {
+  width: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.amount-btn svg {
+  fill: #2c6975;
+}
+.amount-btn:hover svg {
+  fill: #96d7c6;
+}
+.cart {
+  color: #2c6975;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+}
+.cart h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.empty-cart {
+  text-transform: uppercase;
+  color: #2c6975;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 30px;
+}
+.Footer-container{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  margin-top: 1.25rem;
+}
+.center-BTN{
+  text-align: center;
+}
+.Clear-BTN{
+  background: transparent;
+  padding: 0.5rem 1rem;
+  color: #2c6975;
+  font-weight: 700;
+  border: 1px solid #c2c8c5;
+  margin-top: 1.25rem;
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+.Clear-BTN:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2c6975;
+}
+hr {
+  background: #c2c8c5;
+  border-color: transparent;
+  border-width: 0.25px;
+}
